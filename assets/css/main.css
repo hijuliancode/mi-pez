@@ -385,7 +385,7 @@ input, select, textarea {
 			flex-shrink: 0;
 			margin: 5px;
 			height: 16em;
-			box-shadow: 0 0 0 10px #ffffff;
+			box-shadow: 0 0 0 10px #050000fd;
 		}
 
 			#main .item.span-1 {
@@ -401,7 +401,7 @@ input, select, textarea {
 			}
 
 			#main .item.intro {
-				background-color: #d64760;
+				background-color: #000000;
 				background-image: url("images/overlay.png");
 				display: -moz-flex;
 				display: -webkit-flex;
@@ -580,7 +580,7 @@ input, select, textarea {
 					flex-shrink: 1;
 					width: calc(50vw - 15px) !important;
 					margin: 2.5px;
-					box-shadow: 0 0 0 5px #ffffff;
+					box-shadow: 0 0 0 5px #000000;
 				}
 
 					#main .item.intro {
