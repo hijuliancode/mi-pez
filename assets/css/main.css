@@ -458,10 +458,10 @@ input, select, textarea {
 					-webkit-object-fit: cover;
 					-ms-object-fit: cover;
 					object-fit: cover;
-					-moz-object-position: center;
-					-webkit-object-position: center;
-					-ms-object-position: center;
-					object-position: center;
+					-moz-object-position: top;
+					-webkit-object-position: top;
+					-ms-object-position: top;
+					object-position: top;
 					-moz-transition: opacity 0.75s ease-in-out;
 					-webkit-transition: opacity 0.75s ease-in-out;
 					-ms-transition: opacity 0.75s ease-in-out;
@@ -826,12 +826,52 @@ input, select, textarea {
 		}
 
 
-		/* Styles Custom */
+	/* Styles Custom */
 		#main .item.thumb.item--special {
 			width: 100% !important; /* Sorry for the !important, it is because the framework has importants */
 		}
 		@media screen and (min-width: 736px) {
 			#main .item.thumb.item--special {	
 				display: none;
+			}
+		}
+
+		/* Images */
+		#main .item.thumb.item--01 img,
+		#main .item.thumb.item--02 img,
+		#main .item.thumb.item--13 img {
+			object-position: center -50px;
+		}
+		#main .item.thumb.item--05 img {
+			object-position: center -30px;
+		}
+		#main .item.thumb.item--15 img {
+			object-position: center -30px;
+		}
+		#main .item.thumb.item--17 img {
+			object-position: center -100px;
+		}
+		#main .item.thumb.item--18 img {
+			object-position: center -70px;
+		}
+		#main .item.thumb.item--19 img {
+			object-position: center -37px;
+		}
+		#main .item.thumb.item--20 img {
+			object-position: center -257px;
+		}
+
+		@media screen and (min-width: 736px) {
+			#main .item.thumb.item--03 img {
+				object-position: center -50px;
+			}
+			#main .item.thumb.item--12 img {
+				object-position: center -95px;
+			}
+			#main .item.thumb.item--12 img {
+				object-position: center -85px;
+			}
+			#main .item.thumb.item--20 img {
+				object-position: center -90px;
 			}
 		}
